@@ -20,6 +20,14 @@ header{
 	
 }
 
+.banner{
+
+	
+	width: 100%;
+	
+
+}
+
 nav { 
 
 position: absolute;
@@ -180,13 +188,60 @@ footer{
 	.parceiros{
 	display: block;
     margin: 0px auto;
+    width: 30%;
+
 }
+
+
 
 .clientes{
 	display: block;
-    margin: 0px auto;
+    margin: 0 auto;
+    width: 30%;
 
 }
+
+form{
+
+ 	margin: 40px 0;
+ }
+
+ form label, form legend {
+
+ 	display: block;
+ 	font-size: 20px;
+ 	margin: 0 0 10px;
+
+ }
+
+ .input-padrao {
+
+ 	display: block;
+ 	margin: 0 0 20px;
+ 	padding: 10px 25px;
+ 	width: 50%;
+ }
+
+
+ .enviar{
+
+ 	width: 40%;
+ 	padding:15px 0;
+ 	background:orange;
+ 	font-weight:bold;
+ 	font-size:18px;
+ 	border:none;
+ 	border-radius:5px;
+ 	transition: 1s all;
+ 	cursor: pointer;
+ 	text-align: center;
+ }
+
+.enviar:hover{
+	background:darkorange;
+	transform: scale(1.2);
+}
+
 
 .contato{
 
