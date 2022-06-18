@@ -6,7 +6,7 @@
 		
 		<meta charset = "UTF-8">
 		<meta name="viewport" content="width=device-width">
-		<title>Serviços</title>
+		<title>Contato</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -30,12 +30,46 @@
 			</div>
 		</header>
 
+		<form>
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+					<label for="email">Email</label>
+					<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required>
+						
+					</textarea>
+
+					<fieldset>
+						
+						<legend>Como prefere o nosso contato?</legend>
+						
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+						
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+						
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+						
+					</fieldset>
+
+
+					<input type="submit" value="Enviar formulário" class="enviar">
+
+				</form>
+
 		<section class= "principal">
-					<h2 class="titulo-principal">Contato</h2>
+					<h2 class="titulo-principal">Fale Conosco</h2>
 
 					<p class="contato">Email: contato@guiaitci.com</p>
 
 					<p class="contato">Telefone: (62) 98632-2526</p>
+
+					<h2 class="titulo-principal">Nos siga nas redes sociais:</h2>
 
 					<p class="contato">Instagram: @guia.itci</p>
 
