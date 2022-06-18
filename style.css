@@ -183,6 +183,7 @@ footer{
 
  	.visao{
  		font-style: italic;
+ 		font-weight: bold;
  	}
 	
 	.parceiros{
@@ -191,7 +192,6 @@ footer{
     width: 30%;
 
 }
-
 
 
 .clientes{
