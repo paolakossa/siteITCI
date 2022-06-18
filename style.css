@@ -1,0 +1,219 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+
+	background:#191970;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo{
+
+	width: 20%;
+
+	
+}
+
+nav { 
+
+position: absolute;
+top:110px; 
+right: 0;
+
+ }
+
+nav li{
+
+display: inline;
+margin: 0 0 0 15px;
+
+}
+
+nav a{
+
+	text-transform: uppercase;
+	color: #B0E0E6;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+
+	color: #DAA520;
+	text-decoration: underline;
+}
+
+.principal{
+	padding: 3em 0; 
+	background: linear-gradient(#FEFEFE, #888888);
+	width: 100%;
+ 	margin: 0 auto;
+}
+
+.assessoria{
+
+	width: 640px;
+	margin: 0 auto;
+}
+
+.itens-assessoria{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px 0;
+	font-weight: bold;
+
+}
+
+.imagem-assessoria{
+
+	width: 40%;
+	opacity: 1;
+	transition: 400ms;
+	padding: 50px 0;
+
+}
+
+.imagem-assessoria:hover {
+	opacity: 0.3;
+}
+
+.transmissao{
+
+	width: 640px;
+	margin: 0 auto;
+}
+
+.itens-transmissao{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px 0;
+	font-weight: bold;
+
+
+}
+
+.imagem-transmissao{
+
+	width: 40%;
+	opacity: 1;
+	transition: 400ms;
+	padding: 50px 0;
+
+}
+
+.imagem-transmissao:hover {
+	opacity: 0.3;
+}
+
+.palestra{
+
+	width: 640px;
+	margin: 0 auto;
+}
+
+.itens-palestra{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px 0;
+	font-weight: bold;
+
+}
+
+.imagem-palestra{
+
+	width: 40%;
+	opacity: 1;
+	transition: 400ms;
+	padding: 50px 0;
+
+}
+
+.imagem-palestra:hover {
+	opacity: 0.3;
+}
+
+footer{ 
+	text-align: center;
+	padding: 10px 0; 
+	background:#191970;
+
+ }
+
+ .logo-rodape{
+ 	width: 10%;
+
+ }
+
+ .copyright{
+ 	color: #B0E0E6;
+
+ 	}
+
+ 	/*css da página histórico*/
+
+ 	.principal p{
+
+ 		padding: 10px;
+ 	}
+
+ 	.titulo-principal{
+
+ 		text-align: center;
+ 		font-weight: bold;
+ 		padding: 10px;
+ 	}
+
+ 	.visao{
+ 		font-style: italic;
+ 	}
+	
+	.parceiros{
+	display: block;
+    margin: 0px auto;
+}
+
+.clientes{
+	display: block;
+    margin: 0px auto;
+
+}
+
+.contato{
+
+	font-weight: bold;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+	body, main, header, .caixa, .assessoria, .transmissao, .palestra {
+
+		width: auto;
+
+	
+	}
+
+	nav { 
+
+position: absolute;
+top:30px; 
+right: 0;
+
+ }
+
+ .parceiros, .clientes{
+
+ 	width: 50%;
+ }
+
+}
