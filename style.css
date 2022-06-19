@@ -222,6 +222,10 @@ form{
  	width: 50%;
  }
 
+.preferencia{
+   width: 52%;
+
+}
 
  .enviar{
 
@@ -247,6 +251,13 @@ form{
 
 	font-weight: bold;
 	text-align: center;
+}
+
+.instagram{
+  padding: 1000px;
+    
+    
+   
 }
 
 
